@@ -13,8 +13,9 @@ public class MainActivity extends AppCompatActivity {
     @Named("VersionName")
     String versionName;
 
-    /* @Inject
-     @Named("SampleString") */ String string;
+    /*@Inject
+    @Named("SampleString")*/
+    String string;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
