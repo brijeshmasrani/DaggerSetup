@@ -13,8 +13,7 @@ public class AppModule {
     @Provides
     @Singleton
     @Named("VersionName")
-    String providesVersionName(){
+    String providesVersionName() {
         return BuildConfig.VERSION_NAME;
     }
-
 }

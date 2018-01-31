@@ -6,7 +6,7 @@ import dagger.Component;
 import javax.inject.Singleton;
 
 @Singleton
-@Component(modules = {AppModule.class})
+@Component(modules = { AppModule.class })
 public interface AppComponent {
     void inject(MainActivity mainActivity);
 
@@ -15,6 +15,7 @@ public interface AppComponent {
     @Component.Builder
     interface Builder {
         AppComponent build();
+
         Builder appModule(AppModule appModule);
     }
 }
